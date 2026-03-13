@@ -1,9 +1,6 @@
 #  Credit Risk Analysis & ML Dashboard
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python)
-![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?style=for-the-badge&logo=powerbi)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?style=for-the-badge&logo=scikit-learn)
-![XGBoost](https://img.shields.io/badge/XGBoost-84%25-green?style=for-the-badge)
+![Dashboard](Credit_Risk.png)
 
 > A machine learning pipeline and interactive Power BI dashboard for predicting **home credit risk** — identifying whether a customer is likely to default on a loan.
 
@@ -21,14 +18,12 @@ This project was built to assess the creditworthiness of bank customers using re
 
 ##  ML Models & Performance
 
-| Model               | Accuracy | F1 Score | Precision |
+| Model               | F1 Score | Accuracy | Precision |
 |---------------------|----------|----------|-----------|
-| XGBoost             | **84%**  | 84%      | 84%       |
-| Logistic Regression | 81%      | 81%      | 81%       |
-| Decision Tree       | 77%      | 77%      | 77%       |
-| SVM                 | 74%      | 74%      | 74%       |
-
-> **Best Model: XGBoost** with 84% accuracy across all metrics.
+| XGBoost             | **84%**  | 77%      | 81%       |
+| Logistic Regression | 81%      | 72%      | 76%       |
+| Decision Tree       | 77%      | 70%      | 81%       |
+| SVM                 | 74%      | 70%      | 84%       |
 
 ---
 
